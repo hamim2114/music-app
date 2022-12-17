@@ -1,5 +1,10 @@
 import React from "react";
 import DownloadAds from "./DownloadAds";
+import backgraphic from '../img/backgraphics.png'
+import p1 from '../img/p 1.png'
+import p2 from '../img/p 2.png'
+import p3 from '../img/p 3.png'
+import p4 from '../img/p 4.png'
 
 function Hero() {
   return (
@@ -12,25 +17,25 @@ function Hero() {
         <div>
           <img
             className="absolute mt-[15rem]"
-            src="../../public/assets/backgraphics.png"
+            src={backgraphic}
             alt=""
           />
           <img
             data-aos="slide-left"
             className="absolute h-[34rem] mt-[5rem]  "
-            src="../../public/assets/p 1.png"
+            src={p1}
             alt=""
           />
           <img
             data-aos="slide-left"
             data-aos-delay="200"
             className="absolute left-[82px] top-[413px] w-[175px] "
-            src="../../public/assets/p 2.png"
+            src={p2}
             alt=""
           />
           <img
             className="absolute w-[5rem] left-[59px] top-[500px] "
-            src="../../public/assets/p 3.png"
+            src={p3}
             alt=""
           />
         </div>
@@ -78,30 +83,30 @@ function Hero() {
       <div className="relative w-[50%] hidden md:flex ">
         <img
           className="absolute top-[-8rem] left-[19rem]"
-          src="../../public/assets/backgraphics.png"
+          src={backgraphic}
           alt=""
         />
         <img
           data-aos="slide-left"
           className="absolute top-[-15rem] h-[34rem] left-[13rem] "
-          src="../../public/assets/p 1.png"
+          src={p1}
           alt=""
         />
         <img
           data-aos="slide-left"
           data-aos-delay="200"
           className="absolute left-[235px] top-[94px] w-[175px] "
-          src="../../public/assets/p 2.png"
+          src={p2}
           alt=""
         />
         <img
           className="absolute w-[5rem] left-[13rem] top-[12rem] "
-          src="../../public/assets/p 3.png"
+          src={p3}
           alt=""
         />
         <img
           className="absolute w-[5rem] left-[12.5rem] top-[12rem] "
-          src="../../public/assets/p 4.png"
+          src={p4}
           alt=""
         />
       </div>

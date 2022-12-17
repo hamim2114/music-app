@@ -1,5 +1,5 @@
 import Download from './components/Download'
-import Experience from './components/Experience'
+
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -7,6 +7,7 @@ import Search from './components/Search'
 import 'animate.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Experience from './components/Experience'
 AOS.init();
 
 function App() {

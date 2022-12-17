@@ -1,10 +1,15 @@
 import React from "react";
+import group2 from '../img/Group 2.png'
+import musicicon from '../img/music icon.png'
+import group4 from '../img/Group 4.png'
 
 const Feature = ({ icon, title }) => {
+
+  console.log()
   return (
     <div data-aos='slide-right' className="flex items-center justify-center flex-col relative text-center md:mx-12 mb-16 ">
       <div className="bg-[#081730] rounded-2xl p-4">
-        <img className="w-[3rem]" src={`../../public/assets/${icon}.png`} alt="" />
+        <img className="w-[3rem]" src={group2} alt="" />
       </div>
 
       <span className="mt-5">{title}</span>

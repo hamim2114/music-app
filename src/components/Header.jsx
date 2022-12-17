@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import CenterMenu from "./CenterMenu";
-import menu from "../../public/assets/menu.svg";
-import close from "../../public/assets/close.svg";
+import menu from "../img/menu.svg";
+import close from "../img/close.svg";
+import musicLogo from '../img/MuzicLogo.png'
 
 function Header() {
   const [toggle, setToggle] = useState(false);
@@ -14,7 +15,7 @@ function Header() {
     >
       <img
         className="w-[42px] h-[42px]"
-        src="../../public/assets/MuzicLogo.png"
+        src={musicLogo}
         alt=""
       />
       <div className="hidden w-[100%] md:block md:flex justify-between">

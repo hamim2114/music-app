@@ -1,5 +1,12 @@
 import React from "react";
 import MusicPlayer from "./MusicPlayer";
+import backGraphic from '../img/backgraphics.png'
+import d1 from '../img/d1.png'
+import d2 from '../img/d2.png'
+import d3 from '../img/d3.png'
+import d4 from '../img/d4.png'
+import search from '../img/search.png'
+import path318 from '../img/Path 318.png'
 
 function Search() {
   return (
@@ -8,33 +15,33 @@ function Search() {
       <div className=" flex-1  ">
         <img
           className="absolute top-[22rem] left-[-47rem]"
-          src="../../public/assets/backgraphics.png"
+          src={backGraphic}
           alt=""
         />
         <img
         data-aos='slide-right'
           className="absolute w-[16rem] top-[26rem] "
-          src="../../public/assets/d1.png"
+          src={d1}
           alt=""
         />
         <img
         data-aos='slide-right'
         data-aos-delay='200'
           className="absolute w-[9rem] top-[32.7rem] md:left-[7rem] left-[5rem] "
-          src="../../public/assets/d2.png"
+          src={d2}
           alt=""
         />
         <img
         data-aos='slide-right'
         data-aos-delay='400'
           className="absolute w-[9rem] top-[33rem] md:left-[17rem] left-[15rem] "
-          src="../../public/assets/d3.png"
+          src={d3}
           alt=""
         />
         <img
         data-aos='slide-left'
           className="absolute w-[17rem] top-[50rem] left-[2rem] "
-          src="../../public/assets/d4.png"
+          src={d4}
           alt=""
         />
       </div>
@@ -52,7 +59,7 @@ function Search() {
           <div className="flex  items-center rounded-xl ml-4 bg-gradient-to-bl from-[#F3071D] to-[#E600FF] p-4 h-[3rem] ">
             <img
               className="w-[1.5rem]"
-              src="../../public/assets/search.png"
+              src={search}
               alt=""
             />
           </div>
@@ -61,7 +68,7 @@ function Search() {
         <div className="flex md:justify-start justify-center mt-[5rem] items-center w-[100%]">
           <img
             className="w-[5rem]"
-            src="../../public/assets/Path 318.png"
+            src={path318}
             alt=""
           />
         </div>

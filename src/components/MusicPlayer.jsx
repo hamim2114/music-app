@@ -1,4 +1,7 @@
 import React from "react";
+import maskGroup23 from '../img/Mask Group 23.png'
+import path from '../img/path.png'
+import group9 from '../img/Group 9.png'
 
 const MusicPlayer = () => {
   return (
@@ -8,7 +11,7 @@ const MusicPlayer = () => {
         <div className="flex">
           <img
             className="w-[2.5rem] h-[2.5rem] border-2 border-white rounded-full "
-            src="../../public/assets/Mask Group 23.png"
+            src={maskGroup23}
             alt=""
           />
           <div className="flex flex-col ml-4">
@@ -17,7 +20,7 @@ const MusicPlayer = () => {
           </div>
         </div>
         <div>
-          <img className="h-[1rem]" src="../../public/assets/path.png" alt="" />
+          <img className="h-[1rem]" src={path} alt="" />
         </div>
       </div>
 
@@ -29,7 +32,7 @@ const MusicPlayer = () => {
             <span>2: 30</span> <span>4: 30</span>
           </div>
           <img
-            src="../../public/assets/Group 9.png"
+            src={group9}
             alt=""
             className="w-[16rem]"
           />
